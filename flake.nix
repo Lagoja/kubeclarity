@@ -49,7 +49,7 @@
               ];
 
               buildInputs = [] ++ (lib.optionals isLinux [
-                pkgs.btrf-progs
+                pkgs.btrfs-progs
                 pkgs.lvm2
               ]);
               
